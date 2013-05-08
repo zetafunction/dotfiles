@@ -1,3 +1,6 @@
 [submodule "_dotfiles_deps/tmux-colors-solarized"]
 	path = _dotfiles_deps/tmux-colors-solarized
 	url = https://github.com/seebi/tmux-colors-solarized.git
+[submodule "_dotfiles_deps/dircolors-solarized"]
+	path = _dotfiles_deps/dircolors-solarized
+	url = https://github.com/seebi/dircolors-solarized.git
