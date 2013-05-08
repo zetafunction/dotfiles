@@ -1,3 +1,5 @@
+/set tfpath=~/.tinyfugue
+
 /require alias.tf
 ; FIXME: What is this used for?
 /require grep.tf
