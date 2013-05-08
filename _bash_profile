@@ -1,0 +1,3 @@
+source ~/.profile
+
+eval $(dircolors ~/.dotfiles_deps/dircolors-solarized/dircolors.256dark)
