@@ -26,7 +26,8 @@ def main(args):
     src = os.path.join(git_root, f)
     dest = os.path.join(home, '.' + os.path.basename(f)[1:])
     if os.path.lexists(dest):
-      print 'Error: %s already exists, skipping...' % dest
+      if os.path.realpath(src) != os.path.realpath(dest):
+        print 'Error: %s already exists, skipping...' % dest
       continue
     os.symlink(src, dest)
 
