@@ -19,8 +19,6 @@ set softtabstop=2
 
 set backspace=indent,eol,start
 
-set textwidth=80
-
 set showmatch
 
 set hlsearch
