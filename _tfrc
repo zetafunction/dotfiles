@@ -1,4 +1,4 @@
-/set tfpath=~/.tinyfugue
+/eval /set TFPATH %TFLIBDIR ~/.tinyfugue
 
 /require alias.tf
 ; FIXME: What is this used for?
