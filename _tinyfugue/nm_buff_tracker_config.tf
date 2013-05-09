@@ -1,3 +1,5 @@
+/reset_buffs NM
+
 /declare_buff NM aegis Cymoc aegis
 /add_buff_start_message NM aegis "A gossamer net glows around you."
 /add_buff_end_message NM aegis "The gossamer glow around you fades."
@@ -37,3 +39,8 @@
   "The elemental power of Cymoc hammers into you, empowering you with the strength"
 /add_buff_end_message NM soe \
   "The elemental power of Cymoc reluctantly releases you."
+
+/declare_buff NM psyche Psyche
+/add_buff_start_message NM psyche \
+  "You psyche yourself up and feel as though you could accomplish anything now."
+/add_buff_end_message NM psyche "You feel the inspiration leave you."
