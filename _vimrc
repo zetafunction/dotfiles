@@ -1,7 +1,6 @@
 set nocompatible
 set nomodeline
 
-syntax on
 set background=dark
 colorscheme solarized
 
@@ -10,6 +9,8 @@ set number
 set ruler
 
 if has("autocmd")
+  filetype off
+  set runtimepath+=/usr/share/vim/addons
   filetype plugin indent on
 endif
 
