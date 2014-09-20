@@ -1,9 +1,9 @@
 [submodule "_dotfiles_deps/tmux-colors-solarized"]
 	path = _dotfiles_deps/tmux-colors-solarized
-	url = https://github.com/seebi/tmux-colors-solarized.git
+	url = https://github.com/seebi/tmux-colors-solarized
 [submodule "_dotfiles_deps/dircolors-solarized"]
 	path = _dotfiles_deps/dircolors-solarized
-	url = https://github.com/seebi/dircolors-solarized.git
+	url = https://github.com/seebi/dircolors-solarized
 [submodule "_vim"]
 	path = _vim
 	url = https://github.com/altercation/vim-colors-solarized
