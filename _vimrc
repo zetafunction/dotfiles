@@ -36,7 +36,7 @@ if !exists('g:loaded_matchit')
   runtime! macros/matchit.vim
 endif
 
-if hostname() =~ "\\.corp\\.google\\.com$"
+if hostname() =~ "\\.corp\\.google\\.com$" && filereadable("/usr/share/vim/google/google.vim")
   source /usr/share/vim/google/google.vim
 endif
 
