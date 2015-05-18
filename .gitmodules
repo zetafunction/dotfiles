@@ -4,3 +4,6 @@
 [submodule "_dotfiles_deps/dircolors-solarized"]
 	path = _dotfiles_deps/dircolors-solarized
 	url = https://github.com/seebi/dircolors-solarized
+[submodule "_vim"]
+	path = _vim
+	url = https://github.com/tpope/vim-pathogen
