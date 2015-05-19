@@ -13,3 +13,6 @@
 [submodule "_vimbundle/ctrlp.vim"]
 	path = _vimbundle/ctrlp.vim
 	url = https://github.com/kien/ctrlp.vim
+[submodule "_vimbundle/vim-fugitive"]
+	path = _vimbundle/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive
