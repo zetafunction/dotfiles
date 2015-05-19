@@ -16,3 +16,6 @@
 [submodule "_vimbundle/vim-fugitive"]
 	path = _vimbundle/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive
+[submodule "_vimbundle/ctrlp-py-matcher"]
+	path = _vimbundle/ctrlp-py-matcher
+	url = https://github.com/FelikZ/ctrlp-py-matcher

@@ -3,6 +3,7 @@ execute pathogen#infect('bundle/{}', '~/.vimbundle/{}')
 let g:ctrlp_map = '<C-P>'
 let g:ctrlp_cmd = 'CtrlP'
 let g:ctrlp_working_path_mode = 'ra'
+let g:ctrlp_match_func = { 'match': 'pymatcher#PyMatch' }
 
 set nocompatible
 set nomodeline
