@@ -4,6 +4,17 @@ let g:ctrlp_map = '<C-P>'
 let g:ctrlp_cmd = 'CtrlP'
 let g:ctrlp_working_path_mode = 'ra'
 let g:ctrlp_match_func = { 'match': 'pymatcher#PyMatch' }
+let g:ctrlp_lazy_update = 250
+let g:ctrlp_clear_cache_on_exit = 0
+let g:ctrlp_max_files = 0
+if executable("ag")
+  let g:ctrlp_user_command = 'ag %s -l --nocolor
+        \ --ignore .git
+        \ --ignore .svn
+        \ --ignore "out/*"
+        \ --ignore "out_**/*"
+        \ -g ""'
+endif
 
 set nocompatible
 set nomodeline
@@ -45,6 +56,7 @@ endif
 
 if hostname() =~ "\\.corp\\.google\\.com$" && filereadable("/usr/share/vim/google/google.vim")
   source /usr/share/vim/google/google.vim
+  source ~/src/chrome/src/tools/vim/ninja-build.vim
 endif
 
 if has("autocmd")
