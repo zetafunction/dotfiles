@@ -22,3 +22,6 @@
 [submodule "_vimbundle/vim-unimpaired"]
 	path = _vimbundle/vim-unimpaired
 	url = git://github.com/tpope/vim-unimpaired.git
+[submodule "_vimbundle/vim-sensible"]
+	path = _vimbundle/vim-sensible
+	url = git://github.com/tpope/vim-sensible.git
