@@ -20,6 +20,7 @@ set nocompatible
 set nomodeline
 
 set background=dark
+let g:solarized_termcolors=256
 colorscheme solarized
 syntax on
 
