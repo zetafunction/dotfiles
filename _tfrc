@@ -1,5 +1,8 @@
 /eval /set TFPATH %TFLIBDIR ~/.tinyfugue
 
+; Tmux already has a clock
+/clock off
+
 ; FIXME: What is this used for?
 /require grep.tf
 /require kb-bash.tf
