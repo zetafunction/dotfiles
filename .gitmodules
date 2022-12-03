@@ -31,3 +31,6 @@
 [submodule "_vimbundle/rust"]
 	path = _vimbundle/rust
 	url = https://github.com/rust-lang/rust.vim
+[submodule "_vimbundle/vim-visual-multi"]
+	path = _vimbundle/vim-visual-multi
+	url = https://github.com/mg979/vim-visual-multi
