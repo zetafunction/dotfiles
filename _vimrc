@@ -19,7 +19,11 @@ endif
 set nocompatible
 set nomodeline
 
-set background=dark
+if strftime("%H") >= 5 && strftime("%H") < 18
+  set background=light
+else
+  set background=dark
+endif
 let g:solarized_termcolors=256
 colorscheme solarized
 syntax on
@@ -55,9 +59,8 @@ if !exists('g:loaded_matchit')
   runtime! macros/matchit.vim
 endif
 
-if hostname() =~ "\\.corp\\.google\\.com$" && filereadable("/usr/share/vim/google/google.vim")
-  source /usr/share/vim/google/google.vim
-  source ~/src/chrome/src/tools/vim/ninja-build.vim
+if filereadable($HOME . "/.vimrc.local")
+  source ~/.vimrc.local
 endif
 
 if has("autocmd")
