@@ -31,3 +31,6 @@
 [submodule "_vimbundle/vim-abolish"]
 	path = _vimbundle/vim-abolish
 	url = https://github.com/tpope/vim-abolish
+[submodule "_vimbundle/rust"]
+	path = _vimbundle/rust
+	url = https://github.com/rust-lang/rust.vim
