@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 """Installer script for dotfiles.
 
@@ -27,7 +27,7 @@ def main(args):
     dest = os.path.join(home, '.' + os.path.basename(f)[1:])
     if os.path.lexists(dest):
       if os.path.realpath(src) != os.path.realpath(dest):
-        print 'Error: %s already exists, skipping...' % dest
+        print('Error: %s already exists, skipping...' % dest)
       continue
     os.symlink(src, dest)
 
