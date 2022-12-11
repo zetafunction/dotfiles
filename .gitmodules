@@ -34,3 +34,9 @@
 [submodule "_vimbundle/vim-visual-multi"]
 	path = _vimbundle/vim-visual-multi
 	url = https://github.com/mg979/vim-visual-multi
+[submodule "_vimbundle/ale"]
+	path = _vimbundle/ale
+	url = https://github.com/dense-analysis/ale
+[submodule "_vimbundle/coc.nvim"]
+	path = _vimbundle/coc.nvim
+	url = https://github.com/neoclide/coc.nvim
