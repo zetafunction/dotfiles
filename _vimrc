@@ -129,6 +129,10 @@ endfunction
 " Highlight the symbol and its references when holding the cursor.
 autocmd CursorHold * silent call CocActionAsync('highlight')
 
+let g:ale_linters = {
+      \'c': [],
+      \'cpp': [],
+      \}
 let g:ale_fixers = {
       \'*': [ 'trim_whitespace', 'remove_trailing_lines' ],
       \'rust': [ 'rustfmt' ],
