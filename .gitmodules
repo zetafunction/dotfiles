@@ -21,10 +21,10 @@
 	url = https://github.com/FelikZ/ctrlp-py-matcher
 [submodule "_vimbundle/vim-unimpaired"]
 	path = _vimbundle/vim-unimpaired
-	url = git://github.com/tpope/vim-unimpaired.git
+	url = https://github.com/tpope/vim-unimpaired.git
 [submodule "_vimbundle/vim-sensible"]
 	path = _vimbundle/vim-sensible
-	url = git://github.com/tpope/vim-sensible.git
+	url = https://github.com/tpope/vim-sensible.git
 [submodule "_vimbundle/vim-abolish"]
 	path = _vimbundle/vim-abolish
 	url = https://github.com/tpope/vim-abolish
