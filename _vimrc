@@ -1,5 +1,22 @@
 set nocompatible
-set nomodeline
+
+set history=200
+set viminfo='50,\"200
+
+set cursorline
+set scrolloff=3
+set sidescrolloff=5
+set display+=lastline
+
+set number
+
+set laststatus=2
+
+set expandtab
+set shiftwidth=2
+set softtabstop=2
+
+set backspace=indent,eol,start
 
 if strftime("%H") >= 5 && strftime("%H") < 18
   set background=light
@@ -9,16 +26,6 @@ endif
 let g:solarized_termcolors=256
 colorscheme solarized
 syntax on
-
-set laststatus=2
-set number
-set ruler
-
-set expandtab
-set shiftwidth=2
-set softtabstop=2
-
-set backspace=indent,eol,start
 
 set showmatch
 
@@ -32,10 +39,6 @@ set incsearch
 if has("autocmd")
   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 endif
-
-set scrolloff=1
-set sidescrolloff=5
-set display+=lastline
 
 if !exists('g:loaded_matchit')
   runtime! macros/matchit.vim
