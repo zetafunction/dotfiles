@@ -37,3 +37,6 @@
 [submodule "_vim/pack/plugins/start/vim-airline"]
 	path = _vim/pack/plugins/start/vim-airline
 	url = https://github.com/vim-airline/vim-airline
+[submodule "_zsh/zsh-autosuggestions"]
+	path = _zsh/zsh-autosuggestions
+	url = https://github.com/zsh-users/zsh-autosuggestions
