@@ -89,6 +89,8 @@ else
   inoremap <silent><expr> <c-@> coc#refresh()
 endif
 
+nmap <silent> <c-s-a> :CocCommand document.toggleInlayHint<CR>
+
 " Use `[g` and `]g` to navigate diagnostics
 " Use `:CocDiagnostics` to get all diagnostics of current buffer in location list.
 nmap <silent> [g <Plug>(coc-diagnostic-prev)
