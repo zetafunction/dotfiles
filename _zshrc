@@ -10,13 +10,14 @@ source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 [ -f ~/.config/starship.toml ] && eval "$(starship init zsh)"
 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 [ -f ~/.atuin/bin/env ] && source ~/.atuin/bin/env && eval "$(atuin init zsh)"
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=$HISTSIZE
 setopt appendhistory
+setopt hist_ignore_space
 setopt share_history
 
 bindkey -e
