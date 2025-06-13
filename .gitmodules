@@ -40,3 +40,15 @@
 [submodule "_zsh/zsh-autosuggestions"]
 	path = _zsh/zsh-autosuggestions
 	url = https://github.com/zsh-users/zsh-autosuggestions
+[submodule "_vim/pack/plugins/start/everforest"]
+	path = _vim/pack/plugins/start/everforest
+	url = https://github.com/sainnhe/everforest
+[submodule "_vim/pack/plugins/start/iceberg.vim"]
+	path = _vim/pack/plugins/start/iceberg.vim
+	url = https://github.com/cocopon/iceberg.vim
+[submodule "_vim/pack/plugins/start/papercolor-theme"]
+	path = _vim/pack/plugins/start/papercolor-theme
+	url = https://github.com/NLKNguyen/papercolor-theme
+[submodule "_vim/pack/plugins/start/nightfox.nvim"]
+	path = _vim/pack/plugins/start/nightfox.nvim
+	url = https://github.com/EdenEast/nightfox.nvim

@@ -18,13 +18,9 @@ set softtabstop=2
 
 set backspace=indent,eol,start
 
-if strftime("%H") >= 5 && strftime("%H") < 18
-  set background=light
-else
-  set background=dark
-endif
-let g:solarized_termcolors=256
-colorscheme solarized
+set background=dark
+let colorschemes = ['PaperColor', 'iceberg' , 'everforest', 'nightfox']
+execute 'colorscheme' colorschemes[rand() % (len(colorschemes) - 1 ) ]
 syntax on
 
 set showmatch
