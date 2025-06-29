@@ -27,3 +27,5 @@ bindkey '^[[1;3D' backward-word
 if (( $+commands[kitty] )); then
   kitty + complete setup zsh | source /dev/stdin
 fi
+
+[ -f ~/.zshrc.local  ] && source ~/.zshrc.local
